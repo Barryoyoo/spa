@@ -81,7 +81,8 @@ export const ContactSection = () => {
   const handleDateSelect = (date) => {
     setSelectedDate(date);
     if (date) {
-      bookingForm.setValue("date", format(date, "PPP"));
+      const formattedDate = format(date, "PPP");
+      bookingForm.setValue("date", formattedDate, { shouldValidate: true });
     }
   };
 
