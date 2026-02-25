@@ -1,0 +1,175 @@
+{
+  "identity": {
+    "name": "Amani Temptress Spa",
+    "tone": "Seductive, Cinematic, Luxurious, Intimate",
+    "audience": "High-end clientele in Nairobi seeking premium relaxation",
+    "theme_mode": "dark"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "\"Playfair Display\", serif",
+      "body": "\"Mulish\", sans-serif",
+      "accent": "\"Pinyon Script\", cursive"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed",
+      "nav": "text-xl md:text-2xl font-normal"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;1,400&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');"
+    ]
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "primary": "#0f0505",
+        "secondary": "#1a0b0b",
+        "glass": "rgba(15, 5, 5, 0.7)"
+      },
+      "text": {
+        "primary": "#fce4ec",
+        "secondary": "#dbbac2",
+        "muted": "#8d6e75"
+      },
+      "brand": {
+        "burgundy": "#700818",
+        "burgundy_dark": "#4a040e",
+        "gold": "#d4af37",
+        "gold_light": "#f3e5ab",
+        "gold_dim": "#8a7020"
+      },
+      "status": {
+        "success": "#10b981",
+        "error": "#ef4444"
+      }
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(15,5,5,0.3), #0f0505)",
+      "gold_text": "linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #8a7020 100%)",
+      "burgundy_glow": "radial-gradient(circle, rgba(112,8,24,0.4) 0%, rgba(15,5,5,0) 70%)"
+    }
+  },
+  "layout": {
+    "grid_system": "grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12",
+    "container": "container mx-auto px-6 md:px-12 max-w-7xl",
+    "spacing": {
+      "section_padding": "py-20 md:py-32",
+      "element_gap": "gap-8"
+    },
+    "z_index": {
+      "particles": 0,
+      "background": 10,
+      "content": 20,
+      "nav": 50,
+      "modal": 100,
+      "floating_btn": 90
+    }
+  },
+  "components": {
+    "button": {
+      "base": "px-8 py-3 rounded-full transition-all duration-500 ease-out font-serif tracking-wide border border-transparent",
+      "primary": "bg-gradient-to-r from-[#700818] to-[#4a040e] text-[#f3e5ab] border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:scale-105",
+      "secondary": "bg-transparent border-[#d4af37] text-[#d4af37] hover:bg-[#d4af37] hover:text-[#0f0505]",
+      "ghost": "text-[#fce4ec] hover:text-[#d4af37]"
+    },
+    "card": {
+      "base": "relative overflow-hidden rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-[#d4af37]/50 transition-all duration-500 group",
+      "hover_effect": "hover:-translate-y-2 hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)]"
+    },
+    "input": {
+      "base": "bg-transparent border-b border-[#d4af37]/30 focus:border-[#d4af37] px-0 py-4 outline-none transition-colors w-full text-[#fce4ec] placeholder:text-[#dbbac2]/50 font-light"
+    },
+    "modal": {
+      "overlay": "fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4",
+      "content": "bg-[#1a0b0b] border border-[#d4af37]/20 rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative animate-in fade-in zoom-in-95 duration-300"
+    }
+  },
+  "visual_enhancers": {
+    "particles": {
+      "library": "react-tsparticles",
+      "config": {
+        "color": "#d4af37",
+        "opacity": 0.5,
+        "size": 3,
+        "speed": 0.8,
+        "move_direction": "top",
+        "interactive": false
+      }
+    },
+    "shadows": {
+      "gold_glow": "0 0 15px rgba(212, 175, 55, 0.3)",
+      "inner_depth": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.6)"
+    },
+    "borders": {
+      "thin_gold": "1px solid rgba(212, 175, 55, 0.3)"
+    }
+  },
+  "assets": {
+    "logo": "https://ik.imagekit.io/8ax0u09f2/amani%20logo.png",
+    "images": {
+      "hero_bg": "https://images.pexels.com/photos/7303269/pexels-photo-7303269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "service_massage": "https://images.pexels.com/photos/6187255/pexels-photo-6187255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "service_facial": "https://images.pexels.com/photos/3997983/pexels-photo-3997983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "candles": "https://images.unsplash.com/photo-1739280329861-ef453d7ad12f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbHV4dXJ5JTIwc3BhJTIwY2FuZGxlcyUyMHJvc2UlMjBwZXRhbHMlMjBnb2xkfGVufDB8fHx8MTc3MjAyNTg1NHww&ixlib=rb-4.1.0&q=85",
+      "roses": "https://images.unsplash.com/photo-1766393030924-ac10a03d8853?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbHV4dXJ5JTIwc3BhJTIwY2FuZGxlcyUyMHJvc2UlMjBwZXRhbHMlMjBnb2xkfGVufDB8fHx8MTc3MjAyNTg1NHww&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "sections": {
+    "hero": {
+      "type": "fullscreen",
+      "elements": ["Particles Background", "Center Text Overlay", "Floating Scroll Indicator"],
+      "text_style": "Cinematic Center"
+    },
+    "services": {
+      "layout": "Grid of Cards",
+      "interaction": "Click card to open Modal",
+      "data": [
+        "Swedish Massage", "Deep Tissue", "Thai Massage", "Sensual Massage", "Exotic Bodywork", "Body to Body", "Four Hands", "Back Massage"
+      ]
+    },
+    "contact": {
+      "layout": "Split screen (Details + Form)",
+      "features": ["Google Map Embed", "Booking Form", "Contact Form"]
+    }
+  },
+  "instructions_to_main_agent": {
+    "libraries": [
+      "npm install react-tsparticles tsparticles-slim framer-motion lucide-react sonner react-hook-form @hookform/resolvers zod"
+    ],
+    "setup_steps": [
+      "1. Install required libraries.",
+      "2. Configure Tailwind with custom colors (burgundy, gold) and fonts (Playfair, Pinyon Script, Mulish).",
+      "3. Create the 'ParticlesBackground' component using 'tsparticles-slim'.",
+      "4. Build the 'ServiceModal' component using Shadcn Dialog or custom motion overlay.",
+      "5. Implement smooth scrolling (e.g., lenis or standard CSS scroll-behavior).",
+      "6. Ensure the 'Book Now' forms use 'react-hook-form' and 'zod'."
+    ],
+    "critical_rules": [
+      "Do NOT use pure black (#000000). Use #0f0505 or #1a0b0b.",
+      "Navigation font MUST be 'Pinyon Script' (the 'cool slanting font').",
+      "Hero section MUST have the particle effect.",
+      "Ensure all inputs have gold focus states.",
+      "All interactive elements must have 'data-testid'."
+    ]
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+      "- You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+      "- Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+      "- Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+      "- Create depth through layered design elements with z-index hierarchy",
+      "- Use glass-morphism effects with backdrop filters (12-24px blur)",
+      "- You MUST NOT apply universal transition. Eg: 'transition: all'. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+      "- You MUST NOT center align the app container, ie do not add '.App { text-align: center; }' in the css file. This disrupts the human natural reading flow of text",
+      "- Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+      "- NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮 etc for icons.",
+      "- Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+      "- Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+      "- Main agent relies on these image URLs. Missing categories = main agent will use placeholder text which is FORBIDDEN",
+      "- Prioritize using pre-existing components from src/components/ui when applicable",
+      "- Components MUST use named exports (export const ComponentName = ...)",
+      "- Use 'sonner' for toasts"
+  ]
+}
