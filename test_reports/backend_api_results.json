@@ -1,0 +1,231 @@
+{
+  "summary": "10/10 tests passed",
+  "tests": [
+    {
+      "test": "API Root",
+      "status": "PASS",
+      "message": "Status: 200",
+      "timestamp": "2026-02-25T13:32:50.532463",
+      "response": {
+        "message": "Amani Temptress Spa API"
+      }
+    },
+    {
+      "test": "Get Services",
+      "status": "PASS",
+      "message": "Status: 200",
+      "timestamp": "2026-02-25T13:32:50.644847",
+      "response": [
+        {
+          "id": "swedish",
+          "name": "Swedish Massage",
+          "tagline": "Gentle strokes, deep relaxation",
+          "description": "Our signature Swedish massage combines long, flowing strokes with gentle kneading to release tension and promote total relaxation. Perfect for those seeking a classic spa experience.",
+          "benefits": [
+            "Reduces stress & anxiety",
+            "Improves circulation",
+            "Relieves muscle tension",
+            "Promotes deep relaxation"
+          ],
+          "duration": "60 / 90 min",
+          "price": "From KES 5,000",
+          "image": "https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "deep-tissue",
+          "name": "Deep Tissue Massage",
+          "tagline": "Intense relief for chronic tension",
+          "description": "Targeting the deeper layers of muscle tissue, this therapeutic massage uses firm pressure and slow strokes to release chronic patterns of tension and restore mobility.",
+          "benefits": [
+            "Releases chronic muscle tension",
+            "Breaks up scar tissue",
+            "Improves posture",
+            "Reduces inflammation"
+          ],
+          "duration": "60 / 90 min",
+          "price": "From KES 6,000",
+          "image": "https://images.pexels.com/photos/5793699/pexels-photo-5793699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "thai",
+          "name": "Thai Massage",
+          "tagline": "Ancient healing art",
+          "description": "An ancient healing system combining acupressure, Indian Ayurvedic principles, and assisted yoga postures. Experience the art of passive stretching and gentle pressure along energy lines.",
+          "benefits": [
+            "Increases flexibility",
+            "Boosts energy levels",
+            "Improves range of motion",
+            "Balances energy flow"
+          ],
+          "duration": "90 / 120 min",
+          "price": "From KES 7,000",
+          "image": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "sensual",
+          "name": "Sensual Massage",
+          "tagline": "Awaken your senses",
+          "description": "A tantalizing journey designed to awaken every nerve ending. Our skilled therapists use a combination of feather-light touches and warm oil to create an unforgettable sensory experience.",
+          "benefits": [
+            "Heightens body awareness",
+            "Releases emotional tension",
+            "Promotes intimacy",
+            "Creates deep relaxation"
+          ],
+          "duration": "60 / 90 min",
+          "price": "From KES 8,000",
+          "image": "https://images.pexels.com/photos/6187255/pexels-photo-6187255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "exotic",
+          "name": "Exotic Bodywork",
+          "tagline": "Beyond ordinary boundaries",
+          "description": "An exclusive experience that transcends traditional massage. Our exotic bodywork combines elements from various Eastern traditions with modern techniques for an extraordinary journey.",
+          "benefits": [
+            "Full body rejuvenation",
+            "Mind-body connection",
+            "Stress elimination",
+            "Sensory awakening"
+          ],
+          "duration": "90 / 120 min",
+          "price": "From KES 10,000",
+          "image": "https://images.pexels.com/photos/3865792/pexels-photo-3865792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "body-to-body",
+          "name": "Body to Body",
+          "tagline": "Ultimate connection",
+          "description": "An intimate and luxurious experience where our therapist uses their entire body to massage yours. Warm oils and synchronized movements create an unparalleled sensation of closeness.",
+          "benefits": [
+            "Complete muscle relaxation",
+            "Enhanced sensory experience",
+            "Deep emotional release",
+            "Ultimate stress relief"
+          ],
+          "duration": "60 / 90 min",
+          "price": "From KES 12,000",
+          "image": "https://images.pexels.com/photos/6663366/pexels-photo-6663366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "four-hands",
+          "name": "Four Hands Massage",
+          "tagline": "Double the indulgence",
+          "description": "Two therapists work in perfect synchronization to deliver double the pleasure. This choreographed experience overwhelms the senses as four hands glide across your body in harmony.",
+          "benefits": [
+            "Doubles the relaxation",
+            "Overwhelms the mind",
+            "Synchronized bliss",
+            "Ultimate luxury"
+          ],
+          "duration": "60 / 90 min",
+          "price": "From KES 15,000",
+          "image": "https://images.pexels.com/photos/5793696/pexels-photo-5793696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "id": "back-massage",
+          "name": "Back Massage",
+          "tagline": "Focused relief",
+          "description": "Perfect for those short on time but in need of relief. This targeted treatment focuses entirely on the back, shoulders, and neck - where most people carry their tension.",
+          "benefits": [
+            "Quick tension relief",
+            "Improves posture",
+            "Reduces back pain",
+            "Perfect for busy schedules"
+          ],
+          "duration": "30 / 45 min",
+          "price": "From KES 3,500",
+          "image": "https://images.pexels.com/photos/3997983/pexels-photo-3997983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        }
+      ]
+    },
+    {
+      "test": "Services Count",
+      "status": "PASS",
+      "message": "Found 8 services",
+      "timestamp": "2026-02-25T13:32:50.645414"
+    },
+    {
+      "test": "Services Structure",
+      "status": "PASS",
+      "message": "Services have required fields",
+      "timestamp": "2026-02-25T13:32:50.645431"
+    },
+    {
+      "test": "Contact Form",
+      "status": "PASS",
+      "message": "Status: 200",
+      "timestamp": "2026-02-25T13:32:50.820630",
+      "response": {
+        "success": true,
+        "message": "Your message has been sent successfully!"
+      }
+    },
+    {
+      "test": "Contact Response",
+      "status": "PASS",
+      "message": "Contact form returned success response",
+      "timestamp": "2026-02-25T13:32:50.821214"
+    },
+    {
+      "test": "Booking Form",
+      "status": "PASS",
+      "message": "Status: 200",
+      "timestamp": "2026-02-25T13:32:50.942295",
+      "response": {
+        "success": true,
+        "message": "Your booking request has been received!"
+      }
+    },
+    {
+      "test": "Booking Response",
+      "status": "PASS",
+      "message": "Booking form returned success response",
+      "timestamp": "2026-02-25T13:32:50.942901"
+    },
+    {
+      "test": "Contact Validation",
+      "status": "PASS",
+      "message": "Status: 422",
+      "timestamp": "2026-02-25T13:32:51.047885",
+      "response": {
+        "detail": [
+          {
+            "type": "value_error",
+            "loc": [
+              "body",
+              "email"
+            ],
+            "msg": "value is not a valid email address: An email address must have an @-sign.",
+            "input": "invalid-email",
+            "ctx": {
+              "reason": "An email address must have an @-sign."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "test": "Booking Validation",
+      "status": "PASS",
+      "message": "Status: 422",
+      "timestamp": "2026-02-25T13:32:51.182228",
+      "response": {
+        "detail": [
+          {
+            "type": "value_error",
+            "loc": [
+              "body",
+              "email"
+            ],
+            "msg": "value is not a valid email address: An email address must have an @-sign.",
+            "input": "invalid-email",
+            "ctx": {
+              "reason": "An email address must have an @-sign."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "success_rate": 100.0
+}
