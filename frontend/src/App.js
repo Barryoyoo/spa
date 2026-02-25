@@ -43,12 +43,14 @@ function App() {
 
       {/* Toast Notifications */}
       <Toaster
-        position="top-right"
+        position="top-center"
+        duration={4000}
         toastOptions={{
           style: {
             background: "#1a0b0b",
-            border: "1px solid rgba(212, 175, 55, 0.3)",
+            border: "1px solid rgba(212, 175, 55, 0.5)",
             color: "#fce4ec",
+            zIndex: 9999,
           },
           className: "font-body",
         }}
